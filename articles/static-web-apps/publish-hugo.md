@@ -157,7 +157,7 @@ Next, you add configuration settings that the build process uses to build your a
        fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
    - name: Setup Hugo
-     uses: peaceiris/actions-hugo@v2.4.11
+     uses: peaceiris/actions-hugo@v2.4.8
      with:
        hugo-version: "latest"  # Hugo version: latest OR x.y.z
        # extended: true
